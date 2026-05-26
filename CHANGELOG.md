@@ -6,6 +6,11 @@ All notable repository governance changes are documented here.
 
 ### Added
 
+- Issue #43: `governance/ARTIFACT_MAP.md` — canonical карта артефактов для
+  навигации (таблица «Путь | Тип | Назначение | Обязательный? | Связанные
+  артефакты», разделы «Как использовать карту» и «Как обновлять карту»).
+  Зарегистрирована как active в `tools/validate-repository-structure.sh` и
+  связана из `README.md` и `standards/README.md`.
 - Canonical file naming standard в `standards/FILE_NAMING.md` для
   исследований, standards, экспериментов, профилей и курсов; зарегистрирован
   в `standards/README.md` и structure validation.
@@ -67,6 +72,7 @@ All notable repository governance changes are documented here.
 - [standards/TEAM_CONTRACT.md](standards/TEAM_CONTRACT.md)
 - [standards/ISSUE_WORKFLOW.md](standards/ISSUE_WORKFLOW.md)
 - [governance/REPO_MODEL.md](governance/REPO_MODEL.md)
+- [governance/ARTIFACT_MAP.md](governance/ARTIFACT_MAP.md)
 
 ## TODO
 

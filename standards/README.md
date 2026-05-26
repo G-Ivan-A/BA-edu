@@ -26,7 +26,9 @@
 ## Как пользоваться
 
 1. Определите тип артефакта и целевой каталог по
-   [governance/REPO_MODEL.md](../governance/REPO_MODEL.md).
+   [governance/REPO_MODEL.md](../governance/REPO_MODEL.md). Для навигации по
+   существующим артефактам и их связям используйте
+   [governance/ARTIFACT_MAP.md](../governance/ARTIFACT_MAP.md).
 2. Выберите имя файла или каталога по
    [standards/FILE_NAMING.md](FILE_NAMING.md).
 3. Проверьте терминологию по [standards/GLOSSARY.md](GLOSSARY.md), если
