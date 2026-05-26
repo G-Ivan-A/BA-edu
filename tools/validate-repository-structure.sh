@@ -44,6 +44,7 @@ is_active_file() {
     standards/PRODUCT_PROFILE.md | \
     standards/TEAM_CONTRACT.md | \
     governance/REPO_MODEL.md | \
+    governance/ARTIFACT_MAP.md | \
     .github/ISSUE_TEMPLATE/task.yml | \
     tools/validate-frontmatter.sh | \
     tools/validate-repository-structure.sh)
@@ -85,6 +86,7 @@ required_files=(
   "standards/PRODUCT_PROFILE.md"
   "standards/TEAM_CONTRACT.md"
   "governance/REPO_MODEL.md"
+  "governance/ARTIFACT_MAP.md"
   ".github/ISSUE_TEMPLATE/task.yml"
   "tools/validate-frontmatter.sh"
   "tools/validate-repository-structure.sh"
@@ -121,6 +123,7 @@ require_text "README.md" "standards/README.md"
 require_text "README.md" "standards/GLOSSARY.md"
 require_text "README.md" "standards/TEAM_CONTRACT.md"
 require_text "README.md" "governance/REPO_MODEL.md"
+require_text "README.md" "governance/ARTIFACT_MAP.md"
 require_text "README.md" "./tools/validate-frontmatter.sh"
 require_text "README.md" "./tools/validate-repository-structure.sh"
 
@@ -161,6 +164,7 @@ require_text "standards/README.md" "TEAM_CONTRACT.md"
 require_text "standards/README.md" "standards/GLOSSARY.md"
 require_text "standards/README.md" "standards/EDUCATION_PROFILE.md"
 require_text "standards/README.md" "PRODUCT_PROFILE.md"
+require_text "standards/README.md" "ARTIFACT_MAP.md"
 
 require_text "standards/TEAM_CONTRACT.md" "status: canonical"
 require_text "standards/TEAM_CONTRACT.md" "version: 1.0"
@@ -249,6 +253,15 @@ require_text "standards/PRODUCT_PROFILE.md" "Метрики успеха"
 require_text "governance/REPO_MODEL.md" "Артефакт только при операционной боли"
 require_text "governance/REPO_MODEL.md" "Anti-Inflation"
 require_text "governance/REPO_MODEL.md" "tools/"
+
+require_text "governance/ARTIFACT_MAP.md" "status: canonical"
+require_text "governance/ARTIFACT_MAP.md" "version: 1.0"
+require_text "governance/ARTIFACT_MAP.md" "updated: 2026-05-26"
+require_text "governance/ARTIFACT_MAP.md" "ai-generated: false"
+require_text "governance/ARTIFACT_MAP.md" "| Путь | Тип | Назначение | Обязательный? | Связанные артефакты |"
+require_text "governance/ARTIFACT_MAP.md" "Как использовать карту"
+require_text "governance/ARTIFACT_MAP.md" "Как обновлять карту"
+require_text "governance/ARTIFACT_MAP.md" "GLOSSARY.md"
 
 require_text ".github/ISSUE_TEMPLATE/task.yml" "📋 Task Implementation"
 require_text ".github/ISSUE_TEMPLATE/task.yml" "structured"

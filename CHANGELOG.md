@@ -6,6 +6,11 @@ All notable repository governance changes are documented here.
 
 ### Added
 
+- Issue #43: `governance/ARTIFACT_MAP.md` — canonical карта артефактов для
+  навигации (таблица «Путь | Тип | Назначение | Обязательный? | Связанные
+  артефакты», разделы «Как использовать карту» и «Как обновлять карту»).
+  Зарегистрирована как active в `tools/validate-repository-structure.sh` и
+  связана из `README.md` и `standards/README.md`.
 - Canonical education project profile в `standards/EDUCATION_PROFILE.md` для
   структуры курсов, модулей, уроков, упражнений и адаптации под open,
   commercial и internal learning formats.
@@ -56,6 +61,7 @@ All notable repository governance changes are documented here.
 - [standards/EDUCATION_PROFILE.md](standards/EDUCATION_PROFILE.md)
 - [standards/TEAM_CONTRACT.md](standards/TEAM_CONTRACT.md)
 - [governance/REPO_MODEL.md](governance/REPO_MODEL.md)
+- [governance/ARTIFACT_MAP.md](governance/ARTIFACT_MAP.md)
 
 ## TODO
 

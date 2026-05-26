@@ -22,6 +22,7 @@
 | [standards/GLOSSARY.md](standards/GLOSSARY.md) | Единый словарь терминов для standards, governance и AI-assisted work. |
 | [standards/TEAM_CONTRACT.md](standards/TEAM_CONTRACT.md) | Шаблон и инструкция для создания project-level `CONTRIBUTING.md` и `AI_GOVERNANCE.md`. |
 | [governance/REPO_MODEL.md](governance/REPO_MODEL.md) | Модель структуры репозитория и Anti-Inflation правило. |
+| [governance/ARTIFACT_MAP.md](governance/ARTIFACT_MAP.md) | Карта артефактов: где что лежит, зачем нужно и как связано. |
 
 ## Структура
 
