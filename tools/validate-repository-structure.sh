@@ -40,6 +40,7 @@ is_active_file() {
     standards/README.md | \
     standards/RESEARCH_PROFILE.md | \
     standards/GLOSSARY.md | \
+    standards/EDUCATION_PROFILE.md | \
     standards/PRODUCT_PROFILE.md | \
     standards/TEAM_CONTRACT.md | \
     governance/REPO_MODEL.md | \
@@ -80,6 +81,7 @@ required_files=(
   "standards/README.md"
   "standards/RESEARCH_PROFILE.md"
   "standards/GLOSSARY.md"
+  "standards/EDUCATION_PROFILE.md"
   "standards/PRODUCT_PROFILE.md"
   "standards/TEAM_CONTRACT.md"
   "governance/REPO_MODEL.md"
@@ -157,6 +159,7 @@ require_text "standards/README.md" "Как пользоваться"
 require_text "standards/README.md" "RESEARCH_PROFILE.md"
 require_text "standards/README.md" "TEAM_CONTRACT.md"
 require_text "standards/README.md" "standards/GLOSSARY.md"
+require_text "standards/README.md" "standards/EDUCATION_PROFILE.md"
 require_text "standards/README.md" "PRODUCT_PROFILE.md"
 
 require_text "standards/TEAM_CONTRACT.md" "status: canonical"
@@ -211,6 +214,32 @@ require_text "standards/GLOSSARY.md" "Как использовать"
 require_text "standards/GLOSSARY.md" "Связи терминов"
 require_text "standards/GLOSSARY.md" "Источники"
 
+require_text "standards/EDUCATION_PROFILE.md" "status: canonical"
+require_text "standards/EDUCATION_PROFILE.md" "version: 1.0"
+require_text "standards/EDUCATION_PROFILE.md" "updated: 2026-05-26"
+require_text "standards/EDUCATION_PROFILE.md" "ai-generated: false"
+require_text "standards/EDUCATION_PROFILE.md" "## Назначение"
+require_text "standards/EDUCATION_PROFILE.md" "PRODUCT_PROFILE.md"
+require_text "standards/EDUCATION_PROFILE.md" "RESEARCH_PROFILE.md"
+require_text "standards/EDUCATION_PROFILE.md" "| Артефакт | Назначение | Где размещать | Пример/Шаблон |"
+require_text "standards/EDUCATION_PROFILE.md" "CONCEPT.md"
+require_text "standards/EDUCATION_PROFILE.md" "module-XX/"
+require_text "standards/EDUCATION_PROFILE.md" "lesson-01.md"
+require_text "standards/EDUCATION_PROFILE.md" "exercise-01.md"
+require_text "standards/EDUCATION_PROFILE.md" "solution.md"
+require_text "standards/EDUCATION_PROFILE.md" "## Стандарт именования"
+require_text "standards/EDUCATION_PROFILE.md" "## Шаблон структуры модуля"
+require_text "standards/EDUCATION_PROFILE.md" "## Как адаптировать под формат обучения"
+require_text "standards/EDUCATION_PROFILE.md" "Открытый курс"
+require_text "standards/EDUCATION_PROFILE.md" "Коммерческий продукт"
+require_text "standards/EDUCATION_PROFILE.md" "Внутреннее обучение"
+require_text "standards/EDUCATION_PROFILE.md" "## Гибридный формат: чат-бот и LMS"
+require_text "standards/EDUCATION_PROFILE.md" "## Источники и адаптация"
+require_text "standards/EDUCATION_PROFILE.md" "Carnegie Mellon University Eberly Center"
+require_text "standards/EDUCATION_PROFILE.md" "CAST Universal Design for Learning"
+require_text "standards/EDUCATION_PROFILE.md" "UNESCO Open Educational Resources"
+require_text "standards/EDUCATION_PROFILE.md" "1EdTech Common Cartridge"
+require_text "standards/EDUCATION_PROFILE.md" "ADL Experience API"
 require_text "standards/PRODUCT_PROFILE.md" "status: canonical"
 require_text "standards/PRODUCT_PROFILE.md" "ai-generated: false"
 require_text "standards/PRODUCT_PROFILE.md" "PRODUCT_VISION.md"
