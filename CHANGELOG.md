@@ -12,6 +12,10 @@ All notable repository governance changes are documented here.
   `related_commercial_fields`, пять новых `Capability` (R2.1–R2.5) и раздел
   `🚀 Возможные улучшения (не активны в v3.0)` с отложенными атрибутами
   R2.6–R2.8 (обоснование и критерии активации).
+- Issue #65: Mango-only `projects/mango/standards/classification-glossary.md`
+  with the Domain -> Capability -> Feature -> Atomic Function hierarchy,
+  source-backed definitions, Mango examples, mapping table and terms requiring
+  clarification.
 - Issue #59: каркас подкаталогов `projects/mango/` (`kb/`, `prompts/`, `docs/`,
   `experiments/`, `decisions/`) как точки расширения для будущей документации
   промптов и базы знаний. Пустые папки отслеживаются в Git через `.gitkeep` и
@@ -24,6 +28,9 @@ All notable repository governance changes are documented here.
   новую модель; сравнительная таблица международной классификации дополнена
   колонками `Domain → Capability (v3.0)` и `BABOK` и строками 38–42; HTML-экспорт
   `research/mango/classification.html` перегенерирован.
+- Issue #65: `projects/mango/README.md`, `governance/ARTIFACT_MAP.md` and
+  `tools/validate-repository-structure.sh` now register the Mango
+  classification glossary as an active project artifact.
 - Issue #59: раздел «Шаблон структуры» в `projects/mango/README.md` (v1.1)
   дополнен папкой `decisions/` и пометкой о том, что подкаталоги уже созданы как
   placeholder-точки.
