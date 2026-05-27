@@ -32,7 +32,6 @@ require_text() {
 is_active_file() {
   case "$1" in
     README.md | \
-    .gitkeep | \
     CONCEPT.md | \
     CONTRIBUTING.md | \
     AI_GOVERNANCE.md | \
